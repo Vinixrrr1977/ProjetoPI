@@ -1,0 +1,14 @@
+{
+  "name": "pasta-automatch-root",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Root package.json that delegates to the actual project",
+  "scripts": {
+    "dev": "cd \"Automatch pasta\" && npm run dev",
+    "build": "cd \"Automatch pasta\" && npm run build",
+    "preview": "cd \"Automatch pasta\" && npm run preview",
+    "lint": "cd \"Automatch pasta\" && npm run lint",
+    "server": "cd \"Automatch pasta\" && npm run server",
+    "install-all": "cd \"Automatch pasta\" && npm install"
+  }
+}
