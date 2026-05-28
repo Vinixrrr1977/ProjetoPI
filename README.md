@@ -15,7 +15,7 @@ A estrutura do ecossistema foi dividida e organizada da seguinte forma:
 * **Banco de Dados:** PostgreSQL 15 (Alpine) gerenciado via Docker.
 * **Proxy/Gateway:** Nginx (Atua como proxy reverso unificando a aplicação na porta padrão `80`).
 * **Orquestração:** Docker & Docker Compose.
-* **Inteligência Artificial:** Google Gemini API (Modelos `gemini-pro` / `gemini-1.5-flash`).
+* **Inteligência Artificial:** Google Gemini API, YoloV8 (Modelos `gemini-pro` / `gemini-1.5-flash`).
 
 ---
 
